@@ -1,14 +1,14 @@
 import React from 'react';
 import Snakes from './Snake1';
 function App() {
-  const style={
+  const style = {
     margin: `2%`,
-    color:`white`
+    color: `white`
   }
   return (
     <div>
       <div className="text-center" style={style}><h1>Snake Game</h1></div>
-      <Snakes/>
+      <Snakes />
     </div>
   );
 }
